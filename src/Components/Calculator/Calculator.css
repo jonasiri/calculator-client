@@ -1,0 +1,9 @@
+.calculatorContainer {
+  background: darkslateblue;
+  width: 17rem;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}

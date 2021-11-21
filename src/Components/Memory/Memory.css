@@ -1,0 +1,33 @@
+.memoryContainer {
+  background: #3d668a;
+  color: white;
+  height: 28rem;
+  width: 10rem;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+  display: block;
+  overflow: scroll;
+}
+
+.memoryButton {
+  background: #6593bb;
+  margin: 0.1rem;
+  cursor: pointer;
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  height: 3rem;
+  font-size: 1.3rem;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+.memoryButton:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(3px);
+}
