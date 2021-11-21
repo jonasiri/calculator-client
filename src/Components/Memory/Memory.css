@@ -13,6 +13,12 @@
   overflow: scroll;
 }
 
+@media screen and (max-width: 600px) {
+  .memoryContainer {
+    display: none;
+  }
+}
+
 .memoryButton {
   background: #6593bb;
   margin: 0.1rem;

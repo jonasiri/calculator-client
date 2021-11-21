@@ -2,7 +2,9 @@ Jona Siri Calculator App
 
 Client ToDos:
 
-Move state and action to context to reduce prop drilling
+Move state and action to context to reduce prop drilling and centralise button logic
+
+Use constants for button properties to avoid random strings
 
 Front-end validation on equation to reduce calls to backend when equation isn't correct
 
@@ -11,6 +13,8 @@ Further tests for errors and additional use cases
 More unit tests for individual components
 
 Use of Sass or Styled components to increase reusability
+
+A bit more work on responsiveness (show hide memory, dropdown memory for mobile)
 
 ## Available Scripts
 
